@@ -51,9 +51,9 @@
     z-index: 7;
 }
 
-.header__link {
-    color: #2f80ed;
-}
+/*.header__link {*/
+/*    color: #2f80ed;*/
+/*}*/
 
 .header__main-illustration {
     position: absolute;
@@ -62,14 +62,16 @@
     width: 765px;
     height: 608px;
     z-index: 4;
-}
-
-.header__main-illustration_img {
-    width: 765px;
-    height: 608px;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/*.header__main-illustration_img {*/
+/*    width: 765px;*/
+/*    height: 608px;*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 
 .header__square-pic {
     height: 568px;
@@ -92,8 +94,7 @@
     min-width: 175px;
     justify-content: space-between;
     margin-top: 100px;
-    margin-bottom: 100px;
-
+    /*margin-bottom: 100px;*/
 }
 
 .two-columns__brief {
@@ -137,7 +138,7 @@
     width: 60%;
     font-size: 60px;
     font-weight: bold;
-    text-decoration: none;
+    /*text-decoration: none;*/
     margin-top: 100px;
     margin-bottom: 20px;
     align-self: center;
@@ -152,6 +153,7 @@
     text-decoration: none;
     align-self: center;
     text-align: center;
+    margin: 0;
 }
 
 .table {
@@ -160,7 +162,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
+    /*flex-direction: row;*/
     width: 1100px;
     margin: auto;
     margin-bottom: 100px;
@@ -192,7 +194,7 @@
 }
 
 .feinman {
-    height: 890px;
+    min-height: 890px;
     /*display: flex;*/
     position: relative;
     flex-direction: column;
@@ -332,10 +334,11 @@
 
 .logo_place_footer {
     width: 183px;
-    height: 32px;
+    height: 35px;
     background-image: url("/images/logo_white.svg");
     opacity: 0.3;
 }
+
 
 .footer__column_content_copyright {
     display: flex;
@@ -382,19 +385,11 @@
 }
 
 .footer__social-icon {
-    padding-left: 26px;
-    background-repeat: no-repeat;
-    background-position: left center;
+    margin: 0 10px 0;
+    width: 16px;
+    height: 16px;
+
+    /*background-repeat: no-repeat;*/
+    /*background-position: left center;*/
 }
 
-.footer__social-icon_img_fb {
-    background-image: url("/images/facebook_white.svg");
-}
-
-.footer__social-icon_img_vk {
-    background-image: url("/images/vk_white.svg");
-}
-
-.footer__social-icon_img_ig {
-    background-image: url("/images/instagram_white.svg");
-}
