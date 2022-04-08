@@ -9,11 +9,4 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.page a {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
 
-.page a:hover {
-  opacity: 0.7;
-}
