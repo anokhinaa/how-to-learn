@@ -2,9 +2,16 @@
   font-style: normal;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
+  align-content: flex-start;
+  column-gap: 100px;
   flex-wrap: wrap;
   width: 920px;
   margin: auto;
-  margin-bottom: 100px;
 }
+
+
+
+
+
+
+
