@@ -32,6 +32,7 @@
 
 
 @import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
 
 @import url(../blocks/oakley/oakley.css);
 
@@ -73,5 +74,5 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 div {
-  outline: 2px solid cornflowerblue;
+  outline: 1px solid cornflowerblue;
 }
