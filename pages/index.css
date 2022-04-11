@@ -88,9 +88,9 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
-div {
-  outline: 1px solid cornflowerblue;
-}
+/*div {*/
+/*  outline: 1px solid cornflowerblue;*/
+/*}*/
 
 .page a {
   opacity: 1;
@@ -101,15 +101,5 @@ div {
   opacity: 0.7;
 }
 
-/*ul {*/
-/*  list-style: none;*/
-/*  margin: 0 0 0 0;*/
-/*  padding: 0;*/
-/*}*/
-
-/*li {*/
-/*  margin: 0 0 0 0;*/
-/*  padding: 0;*/
-/*}*/
 
 
